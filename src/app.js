@@ -39,7 +39,7 @@ app.get('/about', (req, res) => {
 app.get('/help', (req, res) => {
     res.render('HelP', {
         name: 'Puneet',
-        msg: 'Fuck you, I will not help you',
+        msg: 'I will not help you',
         title: 'Help'
     })
 })
